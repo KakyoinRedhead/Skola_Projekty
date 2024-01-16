@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ukolnicek")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4e325deae37ac6d1d42db7d0e8e3de1c296e196")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ukolnicek")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ukolnicek")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
