@@ -44,7 +44,8 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.Indigo;
+            button1.BackColor = Color.MidnightBlue;
+            button1.ForeColor = Color.DarkSeaGreen;
             button1.Location = new Point(465, 306);
             button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
@@ -65,6 +66,8 @@
             // button2
             // 
             button2.BackColor = Color.MidnightBlue;
+            button2.Font = new Font("Microsoft YaHei UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.DarkSeaGreen;
             button2.Location = new Point(621, 9);
             button2.Name = "button2";
             button2.Size = new Size(75, 55);
@@ -77,7 +80,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.DarkSlateGray;
+            BackColor = Color.Indigo;
             ClientSize = new Size(700, 338);
             Controls.Add(button2);
             Controls.Add(flowLayoutPanel1);
