@@ -22,9 +22,11 @@ namespace KostkyMaturita
             set
             {
                 hodnota = value;
-                BackgroundImage = Image.FromFile($"{hodnota}.jpg");
+                BackgroundImage = Image.FromFile($"{hodnota}.png");
             }
         } 
+
+        public event Action<Kostka> OnkostkaLinknuto;
 
         public Kostka()
         {
@@ -33,7 +35,12 @@ namespace KostkyMaturita
 
         private void Kostka_MouseClick(object sender, MouseEventArgs e)
         {
+            OnkostkaLinknuto?.Invoke(this);
+        }
 
+        public void Vylosuj()
+        {
+            Hodnota = Random.Shared.Next(1, 7);
         }
     }
 }

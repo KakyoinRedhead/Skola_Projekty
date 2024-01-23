@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KostkyMaturita")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86ba3fe1e59e2328ca4d554163a7a08a50029e9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7860fa8fb1ee8a02e821115781b83f911df45cd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("KostkyMaturita")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KostkyMaturita")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

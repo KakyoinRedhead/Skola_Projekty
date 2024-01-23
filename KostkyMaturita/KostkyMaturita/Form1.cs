@@ -14,11 +14,14 @@ namespace KostkyMaturita
             {
                 seznamJmen.Add(prvek.Text);
             }
+
+            Hra hra = new Hra(seznamJmen);
+            hra.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Ho? Kostokou a vyhraj lmao");
         }
 
         private void button3_Click(object sender, EventArgs e)
