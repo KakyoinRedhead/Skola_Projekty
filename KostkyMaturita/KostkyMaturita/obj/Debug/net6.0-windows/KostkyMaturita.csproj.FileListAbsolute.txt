@@ -1,0 +1,17 @@
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\bin\Debug\net6.0-windows\KostkyMaturita.exe
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\bin\Debug\net6.0-windows\KostkyMaturita.deps.json
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\bin\Debug\net6.0-windows\KostkyMaturita.runtimeconfig.json
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\bin\Debug\net6.0-windows\KostkyMaturita.dll
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\bin\Debug\net6.0-windows\KostkyMaturita.pdb
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\KostkyMaturita.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\KostkyMaturita.AssemblyInfoInputs.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\KostkyMaturita.AssemblyInfo.cs
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\KostkyMaturita.csproj.CoreCompileInputs.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\KostkyMaturita.sourcelink.json
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\KostkyMaturita.dll
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\refint\KostkyMaturita.dll
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\KostkyMaturita.pdb
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\KostkyMaturita.genruntimeconfig.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\ref\KostkyMaturita.dll
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\KostkyMaturita.Form1.resources
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\KostkyMaturita\KostkyMaturita\obj\Debug\net6.0-windows\KostkyMaturita.csproj.GenerateResource.cache
