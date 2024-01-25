@@ -18,7 +18,7 @@ namespace KostkyMaturita
 
         private bool jeVybrana;
 
-        public bool JeVybrana1 
+        public bool JeVybrana
         {
             get => jeVybrana;
             set

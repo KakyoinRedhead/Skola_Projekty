@@ -51,21 +51,72 @@ namespace KostkyMaturita
             // Kostku vyberu
 
             // Zjistit kombinace vybranych kostek
-            ZjistiKombinace();
+            ZjistiKombinace(seznamKostek.FindAll(kostka => kostka.JeVybrana));
             // podminka vyhherni kombinace
 
             // vypocet skore
 
             for (int i = 0; i < seznamKostek.Count; i++)
             {
-                seznamKostek[i].JeVybrana1 = false;
+                seznamKostek[i].JeVybrana = false;
                 seznamKostek[i].Vylosuj();
             }
         }
 
-        private void ZjistiKombinace()
+        private int ZjistiKombinace(List<Kostka> vybraneKostky)
         {
-            
+            int skore = 0;
+            //použij seznam
+            bool postupka = true;
+            for(int i = 1; i < 7 ; i++)
+            {
+               if(seznamKostek.Exists(kostka => kostka.Hodnota == i))
+                {
+                    postupka = false;
+                }
+            }
+            if(postupka)
+            {
+                //skore je 3000
+            }
+
+            if(vybraneKostky.FindAll(kostka => kostka.Hodnota == 1).Count() == 1)
+            {
+                   //skore je 100
+            }
+            if (vybraneKostky.FindAll(kostka => kostka.Hodnota == 5).Count() == 1)
+            {
+                //skore je 50
+            }
+            if (vybraneKostky.FindAll(kostka => kostka.Hodnota == 1).Count() == 3)
+            {
+                //skore je 1000
+            }
+            for (int i = 2; i < 7; i++)
+            {
+                if (vybraneKostky.FindAll(kostka => kostka.Hodnota == i).Count() == 3)
+                {
+                    //skore je 100 * i
+                    
+                }
+            }
+
+            int pocetDvojic = 0;
+            for(int i = 1 ; i < 7; i++)
+            {
+                if (vybraneKostky.FindAll(kostka => kostka.Hodnota == i).Count() == 2)
+                {
+                    pocetDvojic++;
+                }
+            }
+
+            if(pocetDvojic == 3)
+            {
+                //skore je 3500
+
+            }
+
+            return skore;
         }
 
         private void button1_Click(object sender, EventArgs e)
