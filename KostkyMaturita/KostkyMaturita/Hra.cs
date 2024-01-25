@@ -21,7 +21,7 @@ namespace KostkyMaturita
 
         public Hra(List<string> seznamJmen) : this()
         {
-            foreach(string jmeno in seznamJmen)
+            foreach (string jmeno in seznamJmen)
             {
                 Label label1 = new Label();
                 label1.Text = jmeno;
@@ -36,21 +36,56 @@ namespace KostkyMaturita
 
         private void VytvorKostky()
         {
-            for (int i = 0; i < 6 ; i++)
+            for (int i = 0; i < 6; i++)
             {
                 Kostka kostka = new Kostka();
                 flowLayoutPanel1.Controls.Add(kostka);
                 seznamKostek.Add(kostka);
                 kostka.Vylosuj();
+                kostka.OnkostkaLinknuto += Kostka_OnKostkaKliknuto;
             }
+        }
+
+        private void Kostka_OnKostkaKliknuto(Kostka kostka)
+        {
+            // Kostku vyberu
+
+            // Zjistit kombinace vybranych kostek
+            ZjistiKombinace();
+            // podminka vyhherni kombinace
+
+            // vypocet skore
+
+            for (int i = 0; i < seznamKostek.Count; i++)
+            {
+                seznamKostek[i].JeVybrana1 = false;
+                seznamKostek[i].Vylosuj();
+            }
+        }
+
+        private void ZjistiKombinace()
+        {
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Vylosuj kostky mimo pouzite
+
+            //Podminka prohry => resetuj kostky
+
+            // odemikat/zamikat tlačitka
+
+            
             for (int i = 0; i < seznamKostek.Count; i++)
             {
                 seznamKostek[i].Vylosuj();
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // pri nejakych vybranych kombinacich zapis a prepnout na dalsiho hrace 
         }
     }
 }

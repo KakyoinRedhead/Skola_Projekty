@@ -14,7 +14,28 @@ namespace KostkyMaturita
     {
         private int hodnota;
 
-        private bool jeOdlozena;
+        private bool jeOdlozena = true;
+
+        private bool jeVybrana;
+
+        public bool JeVybrana1 
+        {
+            get => jeVybrana;
+            set
+            {
+                jeVybrana = value;
+                panel1.BackColor = jeVybrana ? Color.FromArgb(128,128,0,128) : Color .Transparent;
+            }
+        }
+        public bool JeOlozena
+        {
+            get => jeOdlozena;
+            set
+            {
+                jeOdlozena = value;
+                panel1.BackColor = jeOdlozena ? Color.FromArgb(128, 28, 0, 28) : Color.Transparent;
+            }
+        }
 
         public int Hodnota
         {
@@ -31,11 +52,18 @@ namespace KostkyMaturita
         public Kostka()
         {
             InitializeComponent();
+            panel1.BackColor = Color.Transparent;
         }
 
         private void Kostka_MouseClick(object sender, MouseEventArgs e)
         {
+            if (jeOdlozena)
+                return;
+
             OnkostkaLinknuto?.Invoke(this);
+
+            jeVybrana = !jeVybrana;
+            
         }
 
         public void Vylosuj()

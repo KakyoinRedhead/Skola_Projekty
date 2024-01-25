@@ -28,12 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            panel1 = new Panel();
             SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(100, 100);
+            panel1.TabIndex = 0;
+            panel1.MouseClick += Kostka_MouseClick;
             // 
             // Kostka
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(panel1);
             Name = "Kostka";
             Size = new Size(100, 100);
             MouseClick += Kostka_MouseClick;
@@ -41,5 +51,7 @@
         }
 
         #endregion
+
+        private Panel panel1;
     }
 }
