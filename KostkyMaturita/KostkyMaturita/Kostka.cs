@@ -60,15 +60,20 @@ namespace KostkyMaturita
             if (jeOdlozena)
                 return;
 
+            JeVybrana = !JeVybrana;
             OnkostkaLinknuto?.Invoke(this);
-
-            jeVybrana = !jeVybrana;
             
         }
 
         public void Vylosuj()
         {
             Hodnota = Random.Shared.Next(1, 7);
+        }
+
+        internal void Odloz()
+        {
+            JeOlozena = false;
+            JeOlozena = true;
         }
     }
 }

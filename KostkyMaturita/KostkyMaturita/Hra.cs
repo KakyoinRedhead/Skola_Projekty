@@ -14,6 +14,9 @@ namespace KostkyMaturita
     {
         List<Label> seznamLabelu = new List<Label>();
         List<Kostka> seznamKostek = new List<Kostka>();
+        int skoreOdlozenychKostek = 0;
+        
+        bool prvniHod = true;
         public Hra()
         {
             InitializeComponent();
@@ -41,7 +44,6 @@ namespace KostkyMaturita
                 Kostka kostka = new Kostka();
                 flowLayoutPanel1.Controls.Add(kostka);
                 seznamKostek.Add(kostka);
-                kostka.Vylosuj();
                 kostka.OnkostkaLinknuto += Kostka_OnKostkaKliknuto;
             }
         }
@@ -50,17 +52,8 @@ namespace KostkyMaturita
         {
             // Kostku vyberu
 
-            // Zjistit kombinace vybranych kostek
-            ZjistiKombinace(seznamKostek.FindAll(kostka => kostka.JeVybrana));
-            // podminka vyhherni kombinace
-
-            // vypocet skore
-
-            for (int i = 0; i < seznamKostek.Count; i++)
-            {
-                seznamKostek[i].JeVybrana = false;
-                seznamKostek[i].Vylosuj();
-            }
+            int skore = ZjistiKombinace(seznamKostek.FindAll(kostka => kostka.JeVybrana));
+            label1.Text = $"Skóre: {skore + skoreOdlozenychKostek}";
         }
 
         private int ZjistiKombinace(List<Kostka> vybraneKostky)
@@ -77,26 +70,27 @@ namespace KostkyMaturita
             }
             if(postupka)
             {
-                //skore je 3000
+                skore = 3000;
+                return skore;
             }
 
             if(vybraneKostky.FindAll(kostka => kostka.Hodnota == 1).Count() == 1)
             {
-                   //skore je 100
+                skore += 100;
             }
             if (vybraneKostky.FindAll(kostka => kostka.Hodnota == 5).Count() == 1)
             {
-                //skore je 50
+                skore += 50;
             }
             if (vybraneKostky.FindAll(kostka => kostka.Hodnota == 1).Count() == 3)
             {
-                //skore je 1000
+                skore += 1000;
             }
             for (int i = 2; i < 7; i++)
             {
                 if (vybraneKostky.FindAll(kostka => kostka.Hodnota == i).Count() == 3)
                 {
-                    //skore je 100 * i
+                    skore += i * 100;
                     
                 }
             }
@@ -112,8 +106,8 @@ namespace KostkyMaturita
 
             if(pocetDvojic == 3)
             {
-                //skore je 3500
-
+                //skore je 1500
+                skore += 1500;
             }
 
             return skore;
@@ -121,15 +115,33 @@ namespace KostkyMaturita
 
         private void button1_Click(object sender, EventArgs e)
         {
+            List<Kostka> vybraneKostky = seznamKostek.FindAll(kostka => kostka.JeVybrana);
+            if(vybraneKostky.Count > 0)
+            {
+                int skore = ZjistiKombinace(vybraneKostky);
+                skoreOdlozenychKostek = skore;
+                label1.Text = $"Skore: {skore + skoreOdlozenychKostek}";
+                foreach(Kostka kostka in vybraneKostky)
+                {
+                    kostka.Odloz();
+                }
+            }
+           
+
             //Vylosuj kostky mimo pouzite
 
             //Podminka prohry => resetuj kostky
 
             // odemikat/zamikat tlačitka
 
-            
+
             for (int i = 0; i < seznamKostek.Count; i++)
             {
+                if (prvniHod)
+                {
+                    seznamKostek[i].JeOlozena = false;
+                }
+                if (!seznamKostek[i].JeOlozena)
                 seznamKostek[i].Vylosuj();
             }
         }
