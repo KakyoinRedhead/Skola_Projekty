@@ -21,9 +21,8 @@ namespace VetsiBere
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
             Nastaveni nastaveni = new Nastaveni();
-            nastaveni.Show();
+            nastaveni.ShowDialog();
         }
 
         private void button4_Click(object sender, EventArgs e)

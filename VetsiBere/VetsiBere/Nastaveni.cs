@@ -12,7 +12,7 @@ namespace VetsiBere
 {
     public partial class Nastaveni : Form
     {
-        List<string> seznamHracu = new List<string>();
+       public static List<string> seznamHracu = new List<string>();
 
         public Nastaveni()
         {
@@ -25,10 +25,7 @@ namespace VetsiBere
             TextBox textBox = new TextBox();
             textBox.PlaceholderText = "Jméno hráče.....";
             flowLayoutPanel1.Controls.Add(textBox);
-            foreach (Control prvek in flowLayoutPanel1.Controls)
-            {
-                seznamHracu.Add(prvek.Text);
-            }
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -43,9 +40,12 @@ namespace VetsiBere
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 form1 = new Form1();
-            form1.Show();
+            foreach (Control prvek in flowLayoutPanel1.Controls)
+            {
+                seznamHracu.Add(prvek.Text);
+            }
+            this.Close();
+            
         }
     }
 }

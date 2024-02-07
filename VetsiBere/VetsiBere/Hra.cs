@@ -17,10 +17,12 @@ namespace VetsiBere
         public Hra()
         {
             InitializeComponent();
+            VytvorHru();
         }
 
-        public void pridejHrace()
+        public void VytvorHru()
         {
+            //Pridej hrace
             List<string> hraci = nastaveni.GetJmena();
             foreach (string jmeno in hraci)
             {
@@ -29,8 +31,8 @@ namespace VetsiBere
                 label1.Height = flowLayoutPanel1.Height;
                 label1.Width = 50;
                 flowLayoutPanel1.Controls.Add(label1);
-                hraci.Add(label1);
             }
+
         }
        
 
