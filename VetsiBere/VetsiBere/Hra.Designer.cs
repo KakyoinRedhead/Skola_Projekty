@@ -36,6 +36,7 @@
             // 
             // flowLayoutPanel1
             // 
+            flowLayoutPanel1.BackColor = Color.MistyRose;
             flowLayoutPanel1.Location = new Point(12, 417);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(399, 161);
@@ -53,7 +54,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(439, 520);
+            button1.Location = new Point(725, 520);
             button1.Name = "button1";
             button1.Size = new Size(98, 58);
             button1.TabIndex = 2;
@@ -63,6 +64,7 @@
             // 
             // flowLayoutPanel2
             // 
+            flowLayoutPanel2.BackColor = Color.MistyRose;
             flowLayoutPanel2.Location = new Point(12, 12);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
             flowLayoutPanel2.Size = new Size(901, 295);

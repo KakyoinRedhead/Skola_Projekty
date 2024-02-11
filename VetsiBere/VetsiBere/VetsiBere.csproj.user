@@ -7,6 +7,9 @@
     <Compile Update="Hra.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Karta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Nastaveni.cs">
       <SubType>Form</SubType>
     </Compile>
