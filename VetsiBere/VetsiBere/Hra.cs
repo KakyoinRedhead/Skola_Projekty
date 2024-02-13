@@ -13,7 +13,7 @@ namespace VetsiBere
     public partial class Hra : Form
     {
         Nastaveni nastaveni = new Nastaveni();
-        List<Label> seznaamLabelu = new List<Label>();
+        List<Label> seznamLabelu = new List<Label>();
         public Hra()
         {
             InitializeComponent();

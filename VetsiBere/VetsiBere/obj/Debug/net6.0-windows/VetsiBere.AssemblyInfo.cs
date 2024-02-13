@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VetsiBere")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0139d8cfba02c1f04f8cfecc7c651f7d1e72daf7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4f453d02fa42dae2e9a538d83d4c18f91f1fb2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("VetsiBere")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VetsiBere")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

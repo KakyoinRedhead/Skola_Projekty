@@ -22,10 +22,17 @@ namespace VetsiBere
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
+            if(seznamHracu.Count > 32)
+            {
+                MessageBox.Show("Moc hracu");
+                return;
+            }
             TextBox textBox = new TextBox();
             textBox.PlaceholderText = "Jméno hráče.....";
             flowLayoutPanel1.Controls.Add(textBox);
-            
+                seznamHracu.Add(textBox.Text);
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -40,10 +47,7 @@ namespace VetsiBere
 
         private void button2_Click(object sender, EventArgs e)
         {
-            foreach (Control prvek in flowLayoutPanel1.Controls)
-            {
-                seznamHracu.Add(prvek.Text);
-            }
+           
             this.Close();
             
         }
