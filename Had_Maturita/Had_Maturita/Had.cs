@@ -62,6 +62,8 @@ namespace Had_Maturita
 
         internal void ProdluzSe()
         {
+
+
             //Prodlouží se o jeden segment
             Segment posledni = seznamSegmentu.Last();
             Segment novy = new Segment(posledni.X, posledni.Y, posledni.predesliSmer);

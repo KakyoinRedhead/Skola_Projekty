@@ -33,6 +33,7 @@ namespace Had_Maturita
             if (had != null)
             {
                 had.Vykresli(e.Graphics);
+                jablko.Vykresli(e.Graphics);
             }
         }
 

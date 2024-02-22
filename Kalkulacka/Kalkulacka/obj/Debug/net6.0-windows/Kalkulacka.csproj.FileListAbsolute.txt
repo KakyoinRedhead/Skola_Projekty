@@ -1,0 +1,17 @@
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\bin\Debug\net6.0-windows\Kalkulacka.exe
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\bin\Debug\net6.0-windows\Kalkulacka.deps.json
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\bin\Debug\net6.0-windows\Kalkulacka.runtimeconfig.json
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\bin\Debug\net6.0-windows\Kalkulacka.dll
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\bin\Debug\net6.0-windows\Kalkulacka.pdb
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\Kalkulacka.Form1.resources
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\Kalkulacka.csproj.GenerateResource.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\Kalkulacka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\Kalkulacka.AssemblyInfoInputs.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\Kalkulacka.AssemblyInfo.cs
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\Kalkulacka.csproj.CoreCompileInputs.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\Kalkulacka.sourcelink.json
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\Kalkulacka.dll
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\refint\Kalkulacka.dll
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\Kalkulacka.pdb
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\Kalkulacka.genruntimeconfig.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Kalkulacka\Kalkulacka\obj\Debug\net6.0-windows\ref\Kalkulacka.dll
