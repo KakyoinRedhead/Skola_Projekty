@@ -202,6 +202,7 @@
             button15.TabIndex = 15;
             button15.Text = "√";
             button15.UseVisualStyleBackColor = true;
+            button15.Click += button15_Click;
             // 
             // button16
             // 

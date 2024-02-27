@@ -88,6 +88,7 @@ namespace Kalkulacka
 
         private void button18_Click(object sender, EventArgs e)
         {
+
             Priklad += ")";
         }
 
@@ -108,6 +109,14 @@ namespace Kalkulacka
         private void button23_Click(object sender, EventArgs e)
         {
             //Rovnase button
+            try
+            {
+                NCalc.Expression vyraz = new NCalc.Expression(Priklad);
+                vyraz.Parameters.Add("ANS", ANS);
+                decimal vysledek = decimal.Parse(vyraz.Evaluate().ToString());
+                Priklad = vysledek.ToString();
+                ANS = vysledek;
+            }
         }
 
         public void PridejOperator(char operace)
@@ -126,21 +135,37 @@ namespace Kalkulacka
         {
             //znamenkovac
             char pismeno;
-            for(int i = Priklad.Length -1; i >= 0; i--)
+            for (int i = Priklad.Length - 1; i >= 0; i--)
             {
                 pismeno = Priklad[i];
-                if (!char.IsDigit(pismeno) && pismeno != ')')
+                if (!char.IsDigit(pismeno) && pismeno != ')' && pismeno != '.')
                 {
-                    if(pismeno == '-')
+                    if (pismeno == '-')
                     {
-                        Priklad = Priklad.Substring(i);
+                        Priklad = Priklad.Remove(i, 1);
                     }
                     else
                     {
                         Priklad = Priklad.Insert(i + 1, "(-") + ")";
                     }
-                    
+
                     break;
+                }
+            }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            //Odmocnina
+
+            char pismeno;
+            for (int i = Priklad.Length - 1; i >= 0; i--)
+            {
+                pismeno = Priklad[i];
+                if (!char.IsDigit(pismeno) && pismeno != ')' && pismeno != '.')
+                {
+                    Priklad = Priklad.Insert(i + 1, "sqrt(");
+
                 }
             }
         }
