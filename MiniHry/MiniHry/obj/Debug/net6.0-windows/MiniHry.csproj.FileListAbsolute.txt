@@ -1,0 +1,17 @@
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\bin\Debug\net6.0-windows\MiniHry.exe
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\bin\Debug\net6.0-windows\MiniHry.deps.json
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\bin\Debug\net6.0-windows\MiniHry.runtimeconfig.json
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\bin\Debug\net6.0-windows\MiniHry.dll
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\bin\Debug\net6.0-windows\MiniHry.pdb
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\MiniHry.Form1.resources
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\MiniHry.csproj.GenerateResource.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\MiniHry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\MiniHry.AssemblyInfoInputs.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\MiniHry.AssemblyInfo.cs
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\MiniHry.csproj.CoreCompileInputs.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\MiniHry.sourcelink.json
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\MiniHry.dll
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\refint\MiniHry.dll
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\MiniHry.pdb
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\MiniHry.genruntimeconfig.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\MiniHry\MiniHry\obj\Debug\net6.0-windows\ref\MiniHry.dll
