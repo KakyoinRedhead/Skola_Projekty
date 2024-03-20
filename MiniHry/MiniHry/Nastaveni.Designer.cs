@@ -34,6 +34,12 @@
             label4 = new Label();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
+            checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
+            checkBox3 = new CheckBox();
+            trackBar1 = new TrackBar();
+            label5 = new Label();
+            ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -86,11 +92,66 @@
             textBox2.Size = new Size(152, 23);
             textBox2.TabIndex = 5;
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(12, 288);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(67, 19);
+            checkBox1.TabIndex = 8;
+            checkBox1.Text = "Kolečka";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(122, 288);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(71, 19);
+            checkBox2.TabIndex = 9;
+            checkBox2.Text = "Písmena";
+            checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            checkBox3.AutoSize = true;
+            checkBox3.Location = new Point(228, 288);
+            checkBox3.Name = "checkBox3";
+            checkBox3.Size = new Size(89, 19);
+            checkBox3.TabIndex = 10;
+            checkBox3.Text = "Porovnávíní";
+            checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // trackBar1
+            // 
+            trackBar1.Location = new Point(12, 37);
+            trackBar1.Maximum = 100;
+            trackBar1.Minimum = 10;
+            trackBar1.Name = "trackBar1";
+            trackBar1.Size = new Size(104, 45);
+            trackBar1.SmallChange = 10;
+            trackBar1.TabIndex = 11;
+            trackBar1.Value = 10;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(139, 37);
+            label5.Name = "label5";
+            label5.Size = new Size(44, 15);
+            label5.TabIndex = 12;
+            label5.Text = "životy: ";
+            // 
             // Nastaveni
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(366, 450);
+            Controls.Add(label5);
+            Controls.Add(trackBar1);
+            Controls.Add(checkBox3);
+            Controls.Add(checkBox2);
+            Controls.Add(checkBox1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label4);
@@ -99,6 +160,7 @@
             Controls.Add(label1);
             Name = "Nastaveni";
             Text = "Nastaveni";
+            ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -111,5 +173,10 @@
         private Label label4;
         private TextBox textBox1;
         private TextBox textBox2;
+        private CheckBox checkBox1;
+        private CheckBox checkBox2;
+        private CheckBox checkBox3;
+        private TrackBar trackBar1;
+        private Label label5;
     }
 }
