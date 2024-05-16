@@ -15,7 +15,7 @@ namespace MiniHry
         public Nastaveni()
         {
             InitializeComponent();
-            label5.Text = trackBar1.Value.ToString();
+            
         }
     }
 }

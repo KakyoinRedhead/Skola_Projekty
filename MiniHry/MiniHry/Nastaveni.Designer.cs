@@ -124,13 +124,15 @@
             // 
             // trackBar1
             // 
+            trackBar1.LargeChange = 10;
             trackBar1.Location = new Point(12, 37);
             trackBar1.Maximum = 100;
             trackBar1.Minimum = 10;
             trackBar1.Name = "trackBar1";
             trackBar1.Size = new Size(104, 45);
             trackBar1.SmallChange = 10;
-            trackBar1.TabIndex = 11;
+            trackBar1.TabIndex = 10;
+            trackBar1.TickFrequency = 10;
             trackBar1.Value = 10;
             // 
             // label5

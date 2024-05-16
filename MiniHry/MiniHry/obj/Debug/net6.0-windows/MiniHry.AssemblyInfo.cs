@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniHry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+924ad9704e0be21f906a245ce90c8d858b64de6b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+784b95f47abd7cb60d1f6d587520b05a1854e117")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniHry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniHry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
