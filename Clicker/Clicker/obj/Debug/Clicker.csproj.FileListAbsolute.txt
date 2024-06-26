@@ -1,0 +1,12 @@
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\bin\Debug\Clicker.exe.config
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\bin\Debug\Clicker.exe
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\bin\Debug\Clicker.pdb
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\bin\Debug\Siticone.Desktop.UI.dll
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\obj\Debug\Clicker.csproj.AssemblyReference.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\obj\Debug\Clicker.Form1.resources
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\obj\Debug\Clicker.Properties.Resources.resources
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\obj\Debug\Clicker.csproj.GenerateResource.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\obj\Debug\Clicker.csproj.CoreCompileInputs.cache
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\obj\Debug\Clicker.csproj.CopyComplete
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\obj\Debug\Clicker.exe
+C:\Users\fnaf9\OneDrive\Dokumenty\GitHub\Skola_Projekty\Clicker\Clicker\obj\Debug\Clicker.pdb

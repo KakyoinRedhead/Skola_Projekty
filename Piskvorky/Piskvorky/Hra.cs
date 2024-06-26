@@ -30,40 +30,38 @@ namespace Piskvorky
 
         public void JePolePlne()
         {
-            if (herniPole != null)
+          foreach(Policko policko in herniPole)
             {
-                bool plny = herniPole.Cast<Policko>().All(policko => policko.Barva != null && policko.Barva);
-                if (!plny)
+                if (policko.Barva == false)
                 {
-                    MessageBox.Show("Remiza");
-
+                    return;
                 }
-                else
-                {
-                    MessageBox.Show("Vyhral jsi");
-                }
-
             }
+            MessageBox.Show("Pole je plne");    
 
         }
 
 
         public void HerniPoleKliknuto(Policko policko)
         {
-            if (ZacinaPrvni)
+            if(!policko.Barva)
             {
-                policko.CervenaBarva();
-                ZacinaPrvni = false;
+                if (ZacinaPrvni)
+                {
+                    policko.CervenaBarva();
+                    ZacinaPrvni = false;
+                }
+                else
+                {
+                    policko.ModraBarva();
+                    ZacinaPrvni = true;
+                }
             }
-            else
-            {
-                policko.ModraBarva();
-                ZacinaPrvni = true;
-            }
+         
             ZjistiVyhru();
             JePolePlne();
 
-
+            return;
         }
 
         public void VytvorHerniPole()
@@ -82,6 +80,7 @@ namespace Piskvorky
                     policko = new Policko(j, i);
                     policko.Location = new Point(j * policko.Height, i * policko.Width);
                     panel1.Controls.Add(policko);
+                    herniPole[j, i] = policko;  
                     policko.OnPolickoKliknuto += HerniPoleKliknuto;
                 }
             }
